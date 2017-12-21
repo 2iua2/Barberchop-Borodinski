@@ -4,10 +4,16 @@ body {
     min-height: 1750px;
     margin: 0;
     padding: 0;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 body {
-    background: url("bcg_index.jpg") no-repeat 50% 3px;
+    background: #000000 url('../img/bcg_index.jpg') no-repeat 50% 0;
 }
 
 
@@ -38,7 +44,7 @@ body {
 .index-logo {
     width: 368px;
     height: 204px;
-    background: url("/img/bcg_index.jpg") no-repeat;
+    background: url("/bcg_index.jpg") no-repeat;
     margin: 0 auto;
     margin-bottom: 25px;
 }
